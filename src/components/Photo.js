@@ -13,11 +13,11 @@ class Photo extends Component {
                     <Picture/>
                 </>
                 <>
-                    <img src="public/images/imageInPublic.jpg" width={570} height={400} alt=""/>
+                    <img src="images/imageInPublic.jpg" width={570} height={400} alt=""/>
                 </>
                 </div>
 
-               <video width={320} height={240} controls>
+               <video width={360} height={380} controls>
                     <source src={player} type="video/mp4"></source>
                </video>
             </React.Fragment>
